@@ -1,0 +1,30 @@
+Practical 3
+
+Forensic Case Study:-solve the case study(image file)
+provided in the lab using encase investigator or 
+autopsy.
+
+Step1:- Autopsy is web based front end to the FSK.
+start it and create new case.
+open autopsy>File>new case>Enter the case deatails.
+Such as invistagator name and contact.
+
+step2:- You need sample file.Browse in directory.
+And also in location where study has to be created.>
+fill the required information>Finish. Fill the details
+of the case.Creating a datasource.
+
+Step3:-select file or image.This allows us to import
+an image or logical file.Then it will process the
+data source.Then it will create a logical file.
+
+step4:- For generating report click on generate reports
+It will generate report at given location.
+
+Step5:- For image. Goto image/gallery menu>cache>thumbnail
+>pictures>Right click on image>categorized.
+
+Step6:- For keyword Search.select keyword search at
+upper right corner>type the word to search>You can see
+the encrypted file with the search result
+
