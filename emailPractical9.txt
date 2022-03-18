@@ -1,0 +1,30 @@
+9.1 Find mail server providers:-
+Step 1 :- Go to https://www.misk.com/tools/#dns. Then enter your domain name e.g. gmail.com. Press
+enter and see the details.
+Look for the MX record and observe the name to the right of it, which is the domain’s email provider
+e.g.(mail.yaxmail.net) . You can contact this company or one listed as the nameservers in regards to the
+domain’s email.
+
+Step 2 IP whois:-
+Copy the IP address and perform WHOIS search to find Company providing service for that IP address.
+
+9.2 Email Protocols:-
+On computer open Gmail. In the top right, -&gt; Click Settings: -&gt; then click the forwarding and POP/IMAP
+tab.
+
+9.3 Recovering emails:-
+Recovering emails
+
+Open Forensic Toolkit 1.81(Run as Administrator)  start new case  fill the information
+
+Select email emphasis  select all the checkboxes  Next  Add Evidence  Individual file
+Browse the jim.pst file  Finish
+Now open the E-mail Messages tab and select the E-mail you want to see the information
+
+9.4 Analyzing the email header:-
+Open the email you want to check the headers for. Then Next &lt; click the down arrow
+and click Show original.
+Copy the text on the page. And Open the Message header tool.
+https://toolbox.googleapps.com/apps/messageheader/
+And Paste email header
+Click Analyze the header above
