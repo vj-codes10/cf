@@ -1,0 +1,15 @@
+Practical No 7:
+Recovering and Inspecting deleted files:
+1. Delete the File from the Drive.
+2. Open the Drive with Encase.
+3. The deleted File has a red Circle with a line through it. This depicts a deleted file in
+Encase.
+4. The window below shows the content.
+5. To recover the file right click on the file and select “Copy/Unerase.
+6. Write the location the file will be copied out to:
+7. The indicator should show how long the file will take to copy out.
+The time wil depend on the size of the file being copied out, the speed of the connection
+to the source and to the destination.
+8. Once the extraction is completed Encase will confirm this and any errors.
+9. Once the copyout has been completed, navigate to the folder where it was extracted to
+and view the file.
