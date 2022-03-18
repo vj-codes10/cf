@@ -1,0 +1,30 @@
+Practical 5
+
+Analyze the packets provided in lab and solve the 
+questions using wireshark
+
+ what web server software is used by www.snopes.com?
+The domain name can be found from the host headers
+so will set host header column where we will see all
+domain name.
+open wireshark=>file=>open=>asksnopes.pcapng
+select any http=>right click=>apply as column
+select any http=>right click=>Follow TCP stream
+
+About what cell phone problem is the client concerned?
+Client talking about cell so we search for cell keyword in whole packets.
+frame.matches"(?i)cell
+In the first HTTP request cell keywords is in URL and
+it was about cell phone charging issue.
+
+Acoording to zillow, what instrument will ryan learn to play?
+frame.matches "(?i)zillow"
+open file>export object>http>save all>select the folder to save
+open the folder>search for the file name zillow>open 
+with browser.
+
+How many web servers are running apache?
+http.response
+Select http>apply as column
+http.server contains "Apache"
+
