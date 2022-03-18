@@ -1,0 +1,341 @@
+Practical No 10
+
+Case Study of Cloud Computing
+
+1. Amazon EC2 Case Study
+Amazon Elastic Compute Cloud (Amazon EC2) offers the broadest and deepest compute
+platform, with over 500 instances and choice of the latest processor, storage, networking,
+operating system. Amazon EC2 is the first major cloud provider that supports Intel, AMD, and
+Arm processors, the only cloud with on-demand EC2 Mac instances, and the only cloud with
+400 Gbps Ethernet networking. It offers the best price performance for machine learning
+training, as well as the lowest cost per inference instances in the cloud.
+
+Amazon EC2 provides the broadest and deepest instance choice to match your workload’s
+needs. General purpose, compute optimized, memory optimized, storage optimized, and
+accelerated computing instance types are available that provide the optimal compute, memory,
+storage, and networking balance for various workloads. Processors from Intel, AMD, NVIDIA
+and AWS power these instance types and provide additional performance and cost
+
+Case Study of AWS, Azure and Google Cloud for TYCS
+
+AARTI PARDESHI 2
+optimizations. Local storage and enhanced networking options available with instance types
+further help optimize performance for workloads that are disk or network I/O bound. Many
+instance types also offer bare metal instances that provide your applications with direct access
+to the processor and memory of the underlying server for running in non-virtualized
+environments or for applications where user want to use his/her own hypervisor. User can also
+use the AWS Compute Optimizer to get recommendations on optimal AWS Compute resources
+for your workloads to reduce costs and improve performance.
+
+Global Infrastructure
+i. Multiple Locations
+Amazon EC2 provides the ability to place instances in multiple locations. Amazon EC2
+locations are composed of Regions and Availability Zones. Availability Zones are distinct
+locations that are engineered to be insulated from failures in other Availability Zones and
+provide inexpensive, low latency network connectivity to other Availability Zones in the same
+Region. By launching instances in separate Availability Zones, user can protect applications
+from failure of a single location. Regions consist of one or more Availability Zones and are
+geographically dispersed. The Amazon EC2 Service Level Agreement commitment is 99.99%
+availability for each Amazon EC2 Region.
+ii. Cost and Capacity Optimization
+• Pay for What You Use
+With per-second billing, user only pay for what he/she use.
+• Scale Seamlessly with Amazon EC2 Auto Scaling
+Amazon EC2 Auto Scaling allows user to automatically scale Amazon EC2 capacity
+up or down according to conditions user define. User can use the dynamic and
+predictive scaling policies within EC2 Auto Scaling to add or remove EC2 instances.
+Predictive scaling uses machine learning to proactively allocate instances based on
+anticipated demand, and dynamic scaling allows user to scale compute based on defined
+metrics.
+iii. Optimized CPU Configurations
+The Optimize CPUs feature gives user greater control of Amazon EC2 instances on two fronts.
+First, user can specify a custom number of vCPUs when launching new instances to save on
+vCPU-based licensing costs. Second, user can disable Intel Hyper-Threading Technology
+
+Case Study of AWS, Azure and Google Cloud for TYCS
+
+AARTI PARDESHI 3
+(Intel HT Technology) for workloads that perform well with single-threaded CPUs, such as
+certain high-performance computing (HPC) applications.
+iv. Pause and Resume Your Instances
+You can hibernate your Amazon EC2 instances backed by Amazon EBS, and resume them
+from this state at a later time. Applications that take a while to bootstrap and persist state into
+memory (RAM) can benefit from this feature.
+v. Storage
+Optimal storage for every workload
+Different Amazon EC2 workloads can have vastly different storage requirements. Beyond the
+built-in instance storage, Amazon also offer Amazon Elastic Block Store (Amazon EBS)
+and Amazon Elastic File System (Amazon EFS) to suit other cloud storage workload
+requirements. Amazon EBS provides persistent, highly available, consistent, low-latency block
+storage volumes for use with Amazon EC2 instances, while Amazon EFS provides simple,
+scalable, persistent, fully managed cloud file storage for shared access.
+vi. Networking
+High Packet-Per-Second Performance and Low Latency with Enhanced Networking. Enhanced
+Networking enables you to get significantly higher packet per second (PPS) performance,
+lower network jitter and lower latencies. This feature uses a network virtualization stack that
+provides higher I/O performance and lower CPU utilization compared to traditional
+implementations. For instructions on how to enable Enhanced Networking on EC2 instances,
+see the Enhanced Networking on Linux and Enhanced Networking on Windows tutorials.
+
+vii. Run High Levels of Inter-Node Communications with Elastic Fabric
+Adapter
+Elastic Fabric Adapter (EFA) is a network interface for Amazon EC2 instances that enables
+customers to run applications requiring high levels of inter-instance communications, like
+machine learning, computational fluid dynamics, weather modeling, and reservoir simulation,
+at scale on AWS.
+viii. Manage Dynamic Cloud Computing Services with Elastic IP Addresses
+Elastic IP addresses are static IP addresses designed for dynamic cloud computing. An Elastic
+IP address is associated with user count, not with a particular instance, and user controls that
+address until user choose to explicitly release it. Unlike traditional static IP addresses.
+
+Case Study of AWS, Azure and Google Cloud for TYCS
+
+AARTI PARDESHI 4
+ix. High Throughput and Low Latency with High Performance Computing
+(HPC)
+Clusters
+Customers with complex computational workloads such as tightly coupled parallel processes,
+or with applications sensitive to network performance, can achieve the same high compute and
+network performance provided by custom-built infrastructure while benefiting from the
+elasticity, flexibility and cost advantages of Amazon EC2. Cluster Compute, Cluster GPU, and
+
+High Memory Cluster instances have been specifically engineered to provide high-
+performance network capability and can be programmatically launched into clusters – allowing
+
+applications to get the low-latency network performance required for tightly coupled, node-to-
+node communication.
+
+x. Operating Systems and Software
+Amazon Machine Images (AMIs) are preconfigured with an ever-growing list of operating
+systems, including Microsoft Windows and Linux distributions such as Amazon Linux 2,
+Ubuntu, Red Hat Enterprise Linux, CentOS, SUSE and Debian.
+
+Case Study of AWS, Azure and Google Cloud for TYCS
+
+AARTI PARDESHI 5
+
+2. Microsoft Azure
+
+What Is Microsoft Azure?
+Microsoft Azure is a Microsoft cloud service provider that provides cloud computing
+services like computation, storage, security and many other domains. Microsoft is one of
+the global leaders when it comes to Cloud solutions and global cloud infrastructure.
+Microsoft Azure provides services in 60+ global regions and serves in 140 counties. It
+provides services in the form of Infrastructure as a service, Platform as a Service and
+Software as a service. It even provides serverless computing meaning, developer need to
+put his/her own code and all his/her backend activities as managed by Microsoft Azure.
+It easily integrates with Microsoft Products making it very popular using Microsoft
+products. This platform is now 10 years old and it picked up to compete with the best of
+the best.
+
+Advantages
+On-Demand Scalability
+Application Hosting can never be sure of how many resources are enough and how many
+are too much. This is the nature of businesses that rely on varying traffics. Microsoft Azure
+helps user to save all this effort.
+
+Case Study of AWS, Azure and Google Cloud for TYCS
+
+AARTI PARDESHI 6
+Microsoft Azure ensures users applications and data is distributed well enough that means
+user never run short of Server space. It also means applications do not run on a single server
+making them available even in awful situations. Since these resources are properly
+clustered out and they can scale at will and in no time, your applications function very
+differently then they would in an on-premise architecture.
+
+Cost Effective
+One of the major benefits with cloud service providers is the cut down of upfront costs.
+Since user can configure and scale as needed, hence not required to invest heavily here.
+Microsoft Azure ensures small scale investment does not require upfront costs. Also, when
+it comes to people who have signed up contracts, they get heavy discounts. It also offers to
+Pay as go, model, meaning user get cost-cutting in the right sense.
+
+Hybrid Environments
+They say cloud is not a one fit solution for all. It is true indeed because every business will
+have its own set of problems. And not all businesses will always be in a state where they
+can migrate to the cloud entirely. While other platforms suffer here, as people either have
+to migrate to those platforms or call it off totally, Microsoft Azure benefits with its Hybrid
+approach. Meaning, with Microsoft Azure user can build Hybrid infrastructures, where
+
+users resources can partially reside on the cloud and can partially operate from an on-
+premise infrastructure. Hence users are safe from costly workaround.
+
+Big data Applications
+Hadoop and Big data are the need of the hour. With data increasing exponentially we need
+applications that can help process this data. Microsoft Azure brings this capability of
+processing large volumes of data on top of its cloud platform. Azure HDinsight ensures
+user can use Apache Hadoop as a cloud solution. This is a power-packed service that lets
+user deal with large data volumes. That means users data crunching becomes easier.
+It also readily integrates with data visualization tools and also lets user move data to excel.
+This means data visualization concerns are resolved quickly. With excel user can create
+visualizations and with PowerBI integrating with Microsoft Azure users data be converted
+into any visual that you require.
+
+Case Study of AWS, Azure and Google Cloud for TYCS
+
+AARTI PARDESHI 7
+
+Integration Capabilities
+Microsoft has been in the software industry for decades. It has wide reach in the software
+market and not many can compete with it when it comes to customer base and stack of
+products it offers. The advantage for Microsoft Azure here is that it readily integrates with
+most of these products. Be it, connecting to SaaS, PaaS, IaaS applications or even
+something like Visual Studio or Active Directory, Microsoft Azure. Hence user can now
+leverage ERPs and CRMs to enhance business capacity to a greater level.
+
+Storage and Security
+Storage is very critical to any application. It is no different for applications running on
+cloud. The volume of data we handle these days is huge. It also comes in different formats
+and from different sources. Storage resources have to adept enough to handle this data.
+Microsoft Azure lets user store data in form of files, objects, structured and unstructured
+data and a lot more. This happens reliable and securely.
+Talking of security Microsoft Azure ensures high level of security for user applications. It
+ensures all the resources in Azure cloud are guarded with firewalls and data is moved over
+the network with encryption. User have access to authentication and access management
+meaning user data and application are secure to the core.
+Scheduling and Automation
+Everyone hates doing repetitive tasks. What if we could automate mundane tasks or
+recurring tasks be it fetching some data, setting up triggers or scaling your resources when
+needed? Microsoft Azure does that for you ensuring you can utilise your workforce for
+more productive outcomes and get rid of stagnancy or repetition of work.
+Data Backup and Recovery
+Data Backup ensures you have a copy of your data maintained in case if your primary copy
+of data or resources is lost. With Microsoft Azure, you have an option of backing up your
+data in different Azure regions or data centres. You can maintain as many as six copies of
+your data. This signifies that the chance of losing your data on Microsoft Azure is minimal.
+When it comes to reliability your data is available 99.9 percent.
+So, this was About the benefits of Microsoft Azure. Let us go ahead see do customers have
+to about Microsoft Azure and what are some of the popular use cases it has to offer to us.
+
+Case Study of AWS, Azure and Google Cloud for TYCS
+
+AARTI PARDESHI 8
+
+• Use Cases of Microsoft Azure
+Microsoft has many popular customers out there, here are some use cases for you,
+
+➢ University Of Toronto
+This is the largest Canadian university and leads the global front when it comes to research
+at an institutional fare. It made use of Microsoft Azure to avoid heavy hardware renewal
+costs. It migrated some of its activities to Microsoft Azure Cloud. With it, the university
+managed to transform IT processes, saving a lot of time
+
+➢ AkzoNobel
+AkzoNobel is a popular Dutch Company that leads way in paint and coating business. It
+serves in more than 100 countries and always needs better connectivity across the globe. It
+harnessed the power of Microsoft Azure IoT services to improve its performance and
+connectivity at a global level.
+
+➢ IHG (Intercontinental Hotel Group)
+This is one of the largest and leading hotel groups in the world. It owns around 5200
+properties across the globe and serves more than a hundred countries. The fact that you
+own 5200 properties tells you the group holds its values of service very truly and also must
+have experimented a lot to stay up to date with market needs as well. This fact is also
+supported by the fact that this group invests a lot of money in innovations to meet the
+experience quality the customers deserve.
+The company has many of its tools that require Agile practices. It already was based on
+Azure Cloud platform. This is when they decided to use DevOps Services on Microsoft
+Azure.
+Ever since it has moved to Azure StorSimple, which is a hybrid storage service for
+enterprises. The group has achieved great results when it comes to storing data. It has
+helped them save more 70 percent in terms of cost. This is something that was initiated four
+years ago. It needed very little support in setting up and does require too much intervention
+when it comes to administrative attention.
+
+Case Study of AWS, Azure and Google Cloud for TYCS
+
+AARTI PARDESHI 9
+
+3. Google Cloud
+
+Google Cloud Platform, offered by Google, is a suite of cloud computing services that runs on
+the same infrastructure that Google uses internally for its end-user products, such as Google
+Search, Gmail, Google Drive, and YouTube.
+
+Google Cloud Platform (GCP) has emerged as a key suite of tools to power university
+infrastructure, research, and teaching. It provides a powerful infrastructure, data analytics, and
+machine learning to free institutions from the overhead of managing infrastructure,
+provisioning servers, and configuring networks. But higher education institutions needed key
+customizations and enhancements to the service to implement and fully leverage GCP.
+
+• Why Google Cloud
+1. Run your apps wherever you need them
+Avoid vendor lock-in with Google Cloud’s commitment to open source, multicloud, and hybrid
+cloud—allowing you to use your data and run your apps on any cloud or in any environment.
+
+Case Study of AWS, Azure and Google Cloud for TYCS
+
+AARTI PARDESHI 10
+Our open cloud solutions provide consistency between public and private clouds, enabling
+businesses to modernize and developers to build faster in any environment.
+2. Make smarter decisions with the leading data platform
+Maximize insights from your data with Google Cloud’s machine learning and advanced
+analytics capabilities. Our serverless data analytics and machine learning platform helps you
+automate processes, make intelligent predictions, and streamline management and operations.
+3. Run on the cleanest cloud in the industry
+Power your workloads on a net carbon-neutral cloud. Electricity used to run Google Cloud
+products and services is matched 100% with renewable energy. As the only major cloud
+provider to purchase enough renewable energy to cover all operations, Google Cloud offers
+your business a path to sustainability.
+4. Operate confidently with advanced security tools
+Google Cloud protects your data, applications, infrastructure, and customers from fraudulent
+activity, spam, and abuse with the same infrastructure and security services Google uses.
+Google Cloud’s networking, data storage, and compute services provide data encryption at rest,
+in transit, and in use. Advanced security tools support compliance and data confidentiality.
+
+5. Transform how you connect and collaborate
+
+Google Workspace provides your workforce with chat, email, video calling, and document
+collaboration apps in a single space. With an integrated workspace, teams collaborate more
+effectively, frontline workers stay connected, and businesses can build new customer
+experiences.
+
+Case Study of AWS, Azure and Google Cloud for TYCS
+
+AARTI PARDESHI 11
+
+6. Save money, increase efficiency, and optimize spend
+86% of Google Cloud customers agree that "Google Cloud helped increase their operational
+efficiency and optimize IT spend," according to a TechValidate study. Google Cloud saves you
+money with our transparent and innovative approach to pricing. Reduce time spent on platform
+management by 40% to 55% with Anthos. Save up to 32% when you migrate applications to
+Google Cloud versus running them on-premises.
+
+7. Get customized solutions for your specific industry
+Google Cloud helps drive business transformation for some of the world’s leading companies
+in retail, financial services, manufacturing, media, gaming, entertainment, telco, public sector,
+and healthcare. Google Cloud partners with our customers to build customized solutions for
+their toughest challenges. Businesses like Procter & Gamble and Target trust Google Cloud
+because of our industry-first solutions, expertise, and robust ecosystem of partners.
+
+Trust and security
+
+• Trusted cloud infrastructure
+Take advantage of the same secure-by-design infrastructure, built-in protection, and global
+network that Google uses to protect your information, identities, applications, and devices. Our
+stack builds security through progressive layers that deliver true defense in depth at scale.
+• Encryption by default, at rest and in transit
+We encrypt data in transit between our facilities and at rest, ensuring that it can only be accessed
+by authorized roles and services with audited access to the encryption keys. Learn more about
+how we encrypt data at rest and how we encrypt data in transit.
+• Data privacy
+Protecting the privacy of Google Cloud Platform and Google Workspace customers is a priority
+and codified in our Enterprise Privacy Commitments, which guide our security and privacy
+practices. Learn more about how we protect privacy and keep you in control in our privacy
+resource center.
+
+• Transparency
+We work to earn your trust through transparency. We state and adhere to a concrete set of trust
+principles that govern our approach to security. We only process data in accordance with our
+
+Case Study of AWS, Azure and Google Cloud for TYCS
+
+AARTI PARDESHI 12
+terms and data protection agreements and clearly outline our policies on responding to
+government requests.
+
+Drive transformation with Google's multicloud solutions
+
+GC offer you the flexibility to migrate, build, and optimize apps across hybrid and multicloud
+environments while minimizing vendor lock-in, leveraging best-in-breed solutions, and
+meeting regulatory requirements.st
