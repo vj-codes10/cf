@@ -1,0 +1,50 @@
+Practical 1
+Creating Forensic Images FTK 
+Imager allows you to write an image file to a single
+destination or to simultaneously write multiple 
+image files to multiple destinations.
+
+To create a forensic image: 
+1.Click File, and then Create Disk Image, or click 
+the button on the tool bar. 
+2.Select the source you want to make an image of 
+and click Next.
+3.Select the drive or browse to the source of the 
+image you want, and then click Finish.
+4.In the Create Image dialog, click Add 
+●You can compare the stored hashes of your image content by checking the Verify images after they are created box. If a file doesn’t have a hash, this option will generate one. 
+●You can list the entire contents of your images with path, creation dates, whether files were deleted, and other metadata. The list is saved in a tab-separated value format
+5.Select the type of image you want to create, and then click Next.
+Note: If you are creating an image of a CD or DVD, this step is skipped because all CD/DVD images are created in the IsoBuster CUE format.
+The raw image type is not compressed. If you select the Raw (dd) type, be sure to have adequate space for the resulting image. 
+If you select SMART or E01 as the image type, complete the fields in the Evidence Item Information dialog, and click Next.
+Raw (dd): This is the image format most commonly used by modern analysis tools. These raw file formatted images do not contain headers, metadata, or magic values. The raw format typically includes padding for any memory ranges that were intentionally skipped (i.e., device memory) or that could not be read by the acquisition tool, which helps maintain spatial integrity (relative offsets among data).
+SMART: This file format is designed for Linux file systems. This format keeps the disk images as pure bitstreams with optional compression. The file consists of a standard 13-byte header followed by a series of sections. Each section includes its type string, a 64-bit offset to the next section, its 64-bit size, padding, and a CRC, in addition to actual data or comments, if applicable.
+E01: this format is a proprietary format developed by Guidance Software’s EnCase. This format compresses the image file. An image with this format starts with case information in the header and footer, which contains an MD5 hash of the entire bit stream. This case information contains the date and time of acquisition, examiner’s name, special notes and an optional password.
+AFF: Advance Forensic Format (AFF) was developed by Simson Garfinkel and Basis Technology. Its latest implementation is AFF4. The goal is to create a disk image format that does not lock the user into a proprietary format that may prevent them from being able to properly analyze it.
+6.In the Image Destination Folder field, type the location path where you want to save the image file, or click Browse to find to the desired location. 
+8.In the Image Fragment Size field, specify the maximum size in MB for each fragment of the image file. The s01 format is limited by design to sizes between 1 MB and 2047 MB (2 GB). Compressed block pointers are 31- bit numbers (the high bit is a compressed flag), which limits the size of any one segment to two gigabytes. 
+Tip: If you want to transfer the image file to CD, accept the default fragment size of 650 MB.
+
+9.Click Finish. You return to the Create Image dialog.
+10.To add another image destination (i.e., a different saved location or image file type), click Add, and repeat steps 5– 10. To make changes to an image destination, select the destination you want to change and click Edit. 
+To delete an image destination, select the destination and click Remove.
+11.Click Start to begin the imaging process. A progress dialog appears that shows the following: 
+􀂊 The source that is being imaged 
+􀂊 The location where the image is being saved 
+􀂊 The status of the imaging process 
+􀂊 A graphical progress bar 
+􀂊 The amount of data in MB that has been copied and the total amount to be copied 
+􀂊 Elapsed time after the imaging process began 
+􀂊 Estimated time left until the process is complete
+12.After the images are successfully created, click Image Summary to view detailed file information, including MD5 and SHA1 checksums. 
+13.When finished, click Close.
+
+Analyze Forensic Image:
+Click on Add Evidence Item to add evidence from disk, image file or folder.
+Now select the source evidence type as physical drive, logical drive or image file. We have selected image file and click on next.
+Select virtual drive image & click on open option. Select the source path and click on finish
+Now select Evidence Tree and analyze the virtual disk as physical disk.
+Similarly to add raw  image select again add evidence item and click on image file and click on open option.
+Click on finish.
+Now raw image will be added as physical drive to analyze.
